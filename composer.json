@@ -1,5 +1,5 @@
 {
-    "name": "payment/saferpay-bundle",
+    "name": "digital-link/saferpay-bundle",
     "type": "symfony-bundle",
     "description": "Saferpay payment service library for symfony",
     "keywords": ["saferpay", "payment", "e-commerce", "symfony"],
@@ -16,7 +16,6 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "payment/saferpay": "2.*",
         "symfony/config": ">=2.1.0,<3.0",
         "symfony/dependency-injection": ">=2.1.0,<3.0",
         "symfony/http-kernel": ">=2.1.0,<3.0"
