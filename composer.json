@@ -25,6 +25,7 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-4": { "digital-link\\Bundle\\SaferpayBundle\\": "" }
-    }
+        "psr-0": { "Payment\\Bundle\\SaferpayBundle\\": "" }
+    },
+    "target-dir": "Payment/Bundle/SaferpayBundle"
 }
